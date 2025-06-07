@@ -6,8 +6,8 @@ import re
 
 # Set up Client Credentials
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-    client_id='7ae955693f224b679fc0abaad6996b13',  # Replace with your Client ID
-    client_secret='a4b9348c27754ccb92abe396752c15c4'  # Replace with your Client Secret
+    client_id='9dedf9818e7d45cca05a6af912df40ab', 
+    client_secret='ae5f3cf834744765b7772a8430ef4e51' 
 ))
 
 # Full track URL (example: Shape of You by Ed Sheeran)
